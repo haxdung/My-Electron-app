@@ -15,9 +15,9 @@
   "author": "CydeSwype",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.8.2"
+    "electron": "^12.0.4"
   },
   "dependencies": {
-    "electron-push-receiver": "^1.2.4"
+    "electron-push-receiver": "^2.1.3"
   }
 }

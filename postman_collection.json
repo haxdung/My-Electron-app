@@ -13,7 +13,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "key=SERVER_KEY" // <-- from FCM web admin under Settings->Cloud Messaging
+						"value": "key=AAAAf4Mvou4:APA91bF3O9maAHV4svZFoVI_yRKZZwlx9srFiIvBoRDEz-qnOQHgslNPj8T3Kxhwuf4I7-KrQBUW5xsgCekGLZYSDsaIcWoZEaUTNC9KozvUBvSuQuas_uekl9rfPM8A8HoUPQgZO7hP"
 					},
 					{
 						"key": "Content-Type",
@@ -22,7 +22,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"to\" : \"FCM_CLIENT_PUSH_TOKEN\",\n  \"notification\" : {\n    \"title\" : \"example title\",\n    \"body\" : \"example body\"\n  },\n  \"data\" : {\n\t\"foo\" : \"bar\",\n    \"refresh_data\" : 1\n  }\n}"
+					"raw": "{\n  \"to\" : \"cMW8xULDwXE:APA91bFpVR5MFqkBXvOtiH2g9Jzr6J6pQYtnkWhtTdStkdLGrpuztMAtqMcYxCPEt8OWD6H-zg9gIJR3Ov9lFO5Tv9_K8YwgqVXLBc9bDSnzkS0-bzBCaHzLfAiBGfsjiwndNP0XFn3c\",\n  \"notification\" : {\n    \"title\" : \"example title\",\n    \"body\" : \"example body\"\n  },\n  \"data\" : {\n\t\"foo\" : \"bar\",\n    \"refresh_data\" : 1\n  }\n}"
 				},
 				"url": {
 					"raw": "https://fcm.googleapis.com/fcm/send",

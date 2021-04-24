@@ -46,7 +46,7 @@ ipcRenderer.on(NOTIFICATION_RECEIVED, (_, serverNotificationPayload) => {
 })
 
 // Start service
-const senderId = '123456789' // <-- replace with FCM sender ID from FCM web admin under Settings->Cloud Messaging
+const senderId = '547661783790' // <-- replace with FCM sender ID from FCM web admin under Settings->Cloud Messaging
 console.log('starting service and registering a client')
 ipcRenderer.send(START_NOTIFICATION_SERVICE, senderId)
 

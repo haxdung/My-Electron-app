@@ -15,7 +15,10 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 800, height: 600, webPreferences: {
+    nodeIntegration: true,
+    contextIsolation: false
+  }})
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
@@ -28,7 +31,7 @@ function createWindow () {
   setupPushReceiver(mainWindow.webContents);
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
